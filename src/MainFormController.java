@@ -4,6 +4,8 @@ import javafx.scene.control.*;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
+import java.util.List;
+
 public class MainFormController {
     public TextField txtId;
     public TextField txtName;
@@ -47,6 +49,12 @@ public class MainFormController {
     }
 
     private void loadall() {
+        try(Session session = HibernateUtil.getSession()){
+            List<Student> selectedStudent = session.createQuery("FROM Student").list();
+            for(Student tempStudent : selectedStudent){
+
+            }
+        }
     }
 
     public void initialize(){

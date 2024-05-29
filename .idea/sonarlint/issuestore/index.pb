@@ -25,3 +25,5 @@ F
 src/HibernateUtil.java,f\2\f2b21cbf803e231e6d7eef20850f8f3e27ac5cf7
 H
 src/hibernate.properties,0\d\0dd24eee535e15a64a8bdf7fd15745f0e3a1bf00
+B
+src/StudentTM.java,8\8\88f5f1b2b611b777acb26d73f4caf8b2093ef331
