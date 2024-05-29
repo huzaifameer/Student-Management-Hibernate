@@ -17,3 +17,11 @@ D
 src/entity/Book.java,9\2\92d108ab60a69ae807844f638270ea435e7cc9ce
 F
 src/entity/Laptop.java,c\0\c051e9f4f56e7e1bc57a59e6f58d02d2ec9ae22a
+C
+student-man-app.iml,d\6\d629b7f2644c935cda1e4db407cdcdfaa141e14f
+E
+src/hibernate.cfg.xml,5\2\524fbabb9c34b348becff5425aeeaced8e15058f
+F
+src/HibernateUtil.java,f\2\f2b21cbf803e231e6d7eef20850f8f3e27ac5cf7
+H
+src/hibernate.properties,0\d\0dd24eee535e15a64a8bdf7fd15745f0e3a1bf00

@@ -1,11 +1,17 @@
 package entity;
 
-import javax.persistence.Entity;
+import javax.persistence.*;
 
 @Entity
 public class Laptop {
+    @Id
     private long code;
     private String brand;
+    /*--------------*/
+    @OneToOne
+    @JoinColumn(unique = true)
+    private Student student;
+    /*--------------*/
 
     public Laptop() {
     }

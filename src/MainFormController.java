@@ -16,4 +16,7 @@ public class MainFormController {
 
     public void btnSubmit(ActionEvent actionEvent) {
     }
+    public void initialize(){
+        HibernateUtil.getSession();
+    }
 }

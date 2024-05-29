@@ -1,12 +1,21 @@
 package entity;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 public class Program {
+    @Id
     private long progCode;
     private String progName;
     private int credit;
+    /*-------------------*/
+    @ManyToMany(mappedBy = "programs")
+    private Set<Student> students = new HashSet<>();
+    /*-------------------*/
 
     public Program() {
     }
