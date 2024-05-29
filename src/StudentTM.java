@@ -1,10 +1,10 @@
-import java.awt.*;
+import javafx.scene.control.*;
 
 public class StudentTM {
     private long id;
     private String name;
     private String address;
-    private Button deleteButton;
+    private javafx.scene.control.Button deleteButton;
     private Button updateButton;
 
     public StudentTM() {
