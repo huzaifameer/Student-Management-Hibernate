@@ -18,7 +18,7 @@
       <TextField fx:id="txtId" layoutX="21.0" layoutY="71.0" prefHeight="25.0" prefWidth="84.0" promptText="Id" />
       <TextField fx:id="txtName" layoutX="137.0" layoutY="71.0" promptText="Name" />
       <TextField fx:id="txtAddress" layoutX="307.0" layoutY="71.0" prefHeight="25.0" prefWidth="117.0" promptText="Address" />
-      <Button layoutX="468.0" layoutY="71.0" mnemonicParsing="false" onAction="#btnSubmit" style="-fx-background-color: #FBC118;" text="Save Student" />
+      <Button fx:id="btn"  layoutX="468.0" layoutY="71.0" mnemonicParsing="false" onAction="#btnSubmit" style="-fx-background-color: #FBC118;" text="Save Student" />
       <TableView fx:id="tblStudent" layoutX="67.0" layoutY="136.0" prefHeight="200.0" prefWidth="465.0">
         <columns>
           <TableColumn fx:id="colId" prefWidth="72.66668701171875" text="# ST_ID" />
